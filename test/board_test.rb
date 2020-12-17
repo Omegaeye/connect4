@@ -13,8 +13,7 @@ class BoardTest < Minitest::Test
   def test_render
     board = Board.new
 
-    puts board.render
-
+    puts board.display
   end
 
 
